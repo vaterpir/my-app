@@ -1,0 +1,128 @@
+.Menu {
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hidden {
+  display: none;
+}
+
+.menuBox{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.emptyBoxMenu{
+  background-color: rgba(255, 255, 255, 0.383);
+  width: 100%;
+  height: 100%;
+}
+
+.menuLogoBox {
+  background-color: #fff;
+  width: 250px;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* 
+  background: linear-gradient(91.96deg, #0E6BB8 0%, #21CB8E 100%);  */
+}
+.logo-showMenu {
+  background: linear-gradient(-135deg, #21CB8E 0%, #0E6BB8 100%);
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  border: 0px solid #21cb8e;
+  padding: 0 30px;
+  margin: 0 20px;
+  height: 30px;
+}
+.MenuListBlock {
+  background: linear-gradient(-45deg, #21cb8e 0%, #0e6bb8 78%);
+  height: 100%;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.rightMenuBorder{
+  width: 20px;
+  height: 100%;
+  background: linear-gradient(-90deg, #ffffff 10%, #0e6cb800 40%);
+}
+
+.tableBlockMenu {
+  width: 100%;
+  display: -webkit-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.elementMenu {
+  font-size: 22px;
+  font-weight: 500; /* 
+  border: 0 solid #0E6BB8;
+  border-width: 0 0 1px 0; */
+  width: 100%;
+  height: 62px;
+}
+.elementMenu:last-child {
+  border-width: 0;
+}
+.elementMenu > button {
+  color: #fff;
+  outline: none;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+button {
+  background: none;
+  height: 100%;
+}
+.elementMenu > button:hover{
+  color: #0e6bb8;
+  background-color: #fff;
+}
+
+.elementMenu > div{
+  width: 100%;
+  height: 5px;
+  background: radial-gradient(circle, rgba(255,255,255,1) 1%, rgba(148,187,233,0) 75%);
+  border-radius: 100px;
+}
+.danger > button:hover{
+  color: #ff2d2d;
+}

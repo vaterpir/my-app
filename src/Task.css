@@ -1,0 +1,70 @@
+.Task {
+  width: 100%;
+  height: 53px;
+
+  background: #ffffff;
+  color: #0e6bb8;
+  box-shadow: -3px -3px 4px #ffffff, 3px 3px 4px #d4dfe9;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.textTask {
+  height: 100%;
+  flex: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 5px 0 10px;
+  font-size: 16px;
+  margin: 0 0 0 8px;
+  overflow: hidden;
+}
+
+.timeTask {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  padding: 0 10px 0 5px;
+  border: 1px solid #21CB8E;
+  border-radius: 100px;
+}
+
+.checkBox {
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.checkBox > button {
+  width: 26px;
+  height: 26px;
+}
+
+
+.checkBoxDisable{
+  background: #edf3f8;
+  width: 24px;
+  height: 24px;
+  border-radius: 17px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: inset 3px 3px 4px rgba(212, 223, 233, 0.99);
+}
+.checkBoxEnable{
+  background: #21CB8E;
+  width: 24px;
+  height: 24px;
+  border-radius: 17px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: inset 3px 3px 4px #21CB8E;
+}

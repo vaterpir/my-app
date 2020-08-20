@@ -1,0 +1,105 @@
+.ContentApp {
+  background-color: #edf3f8;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  overflow: hidden;
+}
+
+.TaskDay {
+  background-color: #edf3f8;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 10px 0 0;
+  min-width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0E6BB8;
+  border-width: 0 1px 0 1px;
+}
+
+.TaskHeadBox {
+  height: 10%;
+  width: 100%;
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  background: linear-gradient(45deg, #0E6BB8 0%, #21CB8E 100%);
+  box-shadow: -3px -3px 4px #FFFFFF, 3px 3px 4px #D4DFE9;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.TaskHeadBox:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.TaskHeadBox:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.TaskHeadBox > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TaskMain {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.TaskFooterBox {
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonFooter {
+  width: 55px;
+  height: 55px;
+  background: #0e6bb8;
+  box-shadow: -3px -3px 4px #ffffff, 3px 3px 4px #d4dfe9;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -25px;
+  z-index: 0;
+}
